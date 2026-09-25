@@ -1,0 +1,11 @@
+{
+  "name": "student-club-platform",
+  "version": "1.0.0",
+  "description": "Student Club Event & Volunteer Management Platform",
+  "scripts": {
+    "start": "node start.js",
+    "server": "node server/server.js",
+    "client": "cd client && node node_modules/react-scripts/bin/react-scripts.js start",
+    "seed": "cd server && node seeder.js"
+  }
+}
